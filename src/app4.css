@@ -1,0 +1,22 @@
+#app4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#app4 .circle{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#app4 .circle.active{
+    animation: 3s change linear infinite;
+}
+@keyframes change {
+    0%{
+        background: red;
+    }
+    100%{
+        background: black;
+    }
+}

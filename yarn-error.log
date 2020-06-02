@@ -1,0 +1,36 @@
+Arguments: 
+  E:\Software\nodejs\node.exe E:\Software\Yarn\bin\yarn.js init
+
+PATH: 
+  E:\Software\Cmder\bin;E:\Software\Cmder\vendor\bin;C:\Users\Administrator\Desktop\JRGProject\mvc-demo\node_modules\.bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\Software\nodejs\;E:\Software\Yarn\bin\;C:\Users\Administrator\Desktop;E:\Software\hugo;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;E:\Software\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\Yarn\bin;E:\Software\Cmder\vendor\git-for-windows\cmd;E:\Software\Cmder\vendor\git-for-windows\mingw64\bin;E:\Software\Cmder\vendor\git-for-windows\usr\bin;E:\Software\Cmder
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (E:\Software\Yarn\lib\cli.js:137008:13)
+      at Interface.emit (events.js:310:20)
+      at Interface._ttyWrite (readline.js:893:16)
+      at ReadStream.onkeypress (readline.js:198:10)
+      at ReadStream.emit (events.js:310:20)
+      at emitKeys (internal/readline/utils.js:438:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1160:36)
+      at ReadStream.emit (events.js:310:20)
+      at addChunk (_stream_readable.js:286:12)
+
+npm manifest: 
+  {}
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

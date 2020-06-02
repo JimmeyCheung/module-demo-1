@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:before{
+    box-sizing: border-box;
+}
+*:after{
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+}
+.container>section{
+    width: 50%;
+    min-height: 50vh;
+    border: 1px solid black;
+}
